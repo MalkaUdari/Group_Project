@@ -1,0 +1,166 @@
+:root{
+    --color-1:#fca702;
+    --color-2:#0dd0a0;
+    --font-1:'Abril Fatface','cursive';
+    --font-2:'PT Sans', sans-serif;
+
+}
+/*booking section*/
+
+.x1d1{
+    width: 100%;
+    height:auto;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 1px 8px 9px #3737371a;
+    padding: 33px 25px;
+
+}
+.x1d2{
+    width: 21%;
+    padding: 10px;
+}
+.x1lb{
+    font-size: 17px;
+    color: #6c7592;
+    font-family: var(--font-2);
+    text-transform: capitalize; 
+    font-weight: 500;
+}
+.x1in1{
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 9px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    font-family: var(--font-2);
+    color: #6c7592;
+    border: 1px solid #6c7592;
+    font-weight: 500;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+    margin-top: 11px;
+}
+.x1sl1{
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 9px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    font-family: var(--font-2);
+    color: #6c7592;
+    border: 1px solid #6c7592;
+    text-transform: capitalize;
+    font-weight: 500;
+  background-image: url(../img/icon/calendar.svg);
+    margin-top: 11px;
+    background-repeat: no-repeat;
+    background-size: 47px 16px;
+    background-position-y: 18px;
+}
+.x1bt1{
+    font-size: 24px;
+    color: #fff;
+    font-family: var(--font-2);
+    text-transform: capitalize;
+    width: 100%;
+    padding: 9px 31px;
+    border: none;
+    background: var(--color-1);
+    border-radius: 9px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+.x1bt1::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-size: 18px 33px;
+    background-image: url(../img/icon/search.svg);
+    background-repeat: no-repeat;
+    display: block;
+    background-position-x: 10px;
+}
+
+.x1d2:last-child{
+    top: 14px;
+    position: relative;
+    width: 20%;
+}
+/*best rooms*/
+/*booking section + rooms*/
+
+@media screen and (max-width:1200px) {
+
+    
+}
+@media screen and (max-width:1115px) {
+    .x1d2{
+        padding: 5px;
+    }
+    .x1d1{
+        padding: 33px 7px;
+    }
+    .x1sl1{
+        text-align: right;
+    }
+    #zd100{
+        margin-top: -100px;
+        z-index: 0;
+
+    }
+}
+@media screen and (max-width:950px) {
+    .x1d1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .x1d2{
+        width: 32%;
+    }
+    .x1d2:last-child{
+        width: 32%;
+    }
+    .x1bt1{
+        justify-content: center;
+    }
+    .x1bt1::before{
+        display: none;
+    }
+    .x1sl1{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:530px) {
+
+    .x1d1{
+        flex-wrap:wrap ;
+    }
+    .x1d2{
+        width: 48%;
+    }
+    .x1d2:last-child{
+        width: 48%;
+    }
+}
+@media screen and (max-width:360px) {
+
+     .x1d2{
+        width: 100%;
+    }
+    .x1d2:last-child{
+        width: 100%;
+    }
+}
